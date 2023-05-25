@@ -1,0 +1,73 @@
+﻿.page {
+    background-color: rgb(185, 247, 213);
+    padding: 10pt 30pt;
+    border-radius: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    margin-bottom: 30pt;
+    padding: 10pt;
+    color: rgb(73, 141, 6);
+    font-family: cursive;
+    text-align: center;
+}
+
+.proj {
+    background: linear-gradient(23deg, rgba(255, 255, 255, 0.6) 0%, rgba(156, 191, 236, 0.6) 10%, rgba(159, 240, 243, 0.6) 30%, rgba(159, 240, 243, 0.6) 70%, rgba(99, 161, 241, 0.6) 90%, rgba(255, 255, 255, 0.6) 100%);
+    border-radius: 8pt;
+    box-shadow: 0 0 20pt rgba(0,0,0,0.5);
+    margin-bottom: 20pt;
+    padding: 30pt;
+    text-align: justify;
+    overflow: auto;
+}
+
+.year {
+    color: darkblue;
+    text-align: left;
+}
+
+.tech {
+    color: red;
+    text-align: left;
+}
+
+.name {
+    color: green;
+    text-align: left;
+}
+
+.remark {
+    padding-left: 10pt;
+    color: darkolivegreen;
+}
+
+.desc {
+    padding-left: 10pt;
+}
+
+.link {
+    float: right;
+    padding-left: 10pt;
+    font-size: smaller;
+    font-style: italic;
+    color: purple;
+    text-decoration: none;
+}
+
+.imglink {
+    max-width: 120pt;
+    max-height: 120pt;
+}
+
+.note {
+    font-size: smaller;
+    text-align: left;
+}
+
+.git {
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: large;
+}

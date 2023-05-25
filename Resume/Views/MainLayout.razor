@@ -1,0 +1,15 @@
+﻿@inherits LayoutComponentBase
+
+<ErrorBoundary>
+    <ChildContent>
+        <MudLayout>
+            <BarTop />
+            <MudContainer Class="mt-16">
+                @Body
+            </MudContainer>
+        </MudLayout>
+    </ChildContent>
+    <ErrorContent>
+        <ShowError Message="@($"{context.Message}")" />
+    </ErrorContent>
+</ErrorBoundary>

@@ -1,0 +1,128 @@
+﻿@page "/Pet"
+@inject Settings settings
+
+<PageTitle>Makajda - Pet projects</PageTitle>
+
+<div class=page>
+    <h1 class=title>Pet projects</h1>
+
+    <p class="git">
+        Source code: <a href="https://github.com/makajda">github.com/makajda</a>
+    </p>
+
+    <div class=proj>
+        <a class=link href="https://makajda.github.io/G3g7/">
+            <img class=imglink src="img/asAboveSoBelow.png">
+        </a>
+        <span class=link></span>
+        <span class=year>2021 </span>
+        <span class=tech>C#, Blazor </span>
+        @if (settings.Language) {
+            <p><span class=name>Силы и октавы</span><span class=remark>заблейзорабило</span><span class=desc>По следу Гурджиева</span></p>
+        }
+        else {
+            <p><span class=name>Forces and octaves</span><span class=remark></span><span class=desc>Following Gurdjieff's</span></p>
+        }
+    </div>
+
+    <div class=proj>
+        <span class=year>2020 </span>
+        <span class=tech>C#, .net5 </span>
+        @if (settings.Language) {
+            <p><span class=name>Добыча...</span><span class=remark>все на .net6</span><span class=desc>Фильтрованные новости</span></p>
+        }
+        else {
+            <p><span class=name>Retrieving...</span><span class=remark>everybody on .net6</span><span class=desc>The filtered news</span></p>
+        }
+    </div>
+
+    <div class=proj>
+        <a class=link href="https://play.google.com/store/apps/details?id=com.makajda.catanspice">
+            <img class=imglink src="img/storeGoogle.png">
+        </a>
+        <span class=year>2020 </span>
+        <span class=tech>Kotlin, Android </span>
+        @if (settings.Language) {
+            <p>
+                <span class=name>Catan spice</span><span class=remark>Котлин</span>
+                <span class=desc>Случайное начальное размещение ресурсов для настольной игры Катан</span>
+            </p>
+        }
+        else {
+            <p>
+                <span class=name>Catan spice</span><span class=remark></span>
+                <span class=desc>Random initial placement of resources for the Catan board game</span>
+            </p>
+        }
+    </div>
+
+    <div class=proj>
+        <span class=year>2019 </span>
+        <span class=tech>C#, Xamarin Forms </span>
+        @if (settings.Language) {
+            <p><span class=name>Play Gospels</span><span class=remark>интересно</span><span class=desc>Изучение Евангелий на семи языках</span></p>
+        }
+        else {
+            <p><span class=name>Play Gospels</span><span class=remark>interesting</span><span class=desc>Studying the Gospels in Seven Languages</span></p>
+        }
+    </div>
+
+    <div class=proj>
+        <a class=link href="https://play.google.com/store/apps/details?id=com.Makajda.Celebratexp">
+            <img class=imglink src="img/storeGoogle.png">
+        </a>
+        <span class=year>2019 </span>
+        <span class=tech>C#, Xamarin Forms </span>
+        @if (settings.Language) {
+            <p>
+                <span class=name>Celebratexp</span><span class=remark>мобильный XAML</span>
+                <span class=desc>Показ круглых событий от указанных дат. Отмечайте с Юпитером, Марсом, Венерой</span>
+            </p>
+        }
+        else {
+            <p>
+                <span class=name>Celebratexp</span><span class=remark>mobile XAML</span>
+                <span class=desc>Show round events from specified dates. Celebrate with Jupiter, Mars, Venus</span>
+            </p>
+        }
+    </div>
+
+    <div class=proj>
+        <a class=link href="https://www.microsoft.com/store/apps/9wzdncrdctzh">
+            <img class=imglink src="img/storeMicrosoft.png">
+        </a>
+        <span class=year>2013 </span>
+        <span class=tech>C#, UWP </span>
+        @if (settings.Language) {
+            <p>
+                <span class=name>Happy Route</span><span class=remark>плюс флэшмоб</span><span class=desc>
+                    Создание схем и определение оптимальных маршрутов.
+                    В образцы для использования и правки включены схемы метро в городах
+                    Берлин, Вашингтон, Лондон, Мадрид, Мехико, Милан, Москва, Мюнхен,
+                    Нью-Йорк, Париж, Сеул, Токио и Пекин
+                </span>
+            </p>
+        }
+        else {
+            <p>
+                <span class=name>Happy Route</span><span class=remark>plus flashmob</span><span class=desc>
+                    Creation of schemes and determination of optimal routes.
+                    Subway maps in cities are included in the samples for use and editing
+                    Berlin, Washington, London, Madrid, Mexico City, Milan, Moscow, Munich,
+                    New York, Paris, Seoul, Tokyo and Beijing
+                </span>
+            </p>
+        }
+    </div>
+
+    @if (settings.Language) {
+        <p class=note>* Удалены проекты, потерявшие актуальность</p>
+    }
+    else {
+        <p class=note>* Removed projects that have lost their relevance</p>
+    }
+</div>
+
+@code {
+    [CascadingParameter] public Erowa Erowa { get; set; }
+}

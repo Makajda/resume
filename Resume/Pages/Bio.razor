@@ -1,0 +1,32 @@
+﻿@page "/Bio"
+@inject Settings settings
+
+<PageTitle>Makajda - Bio</PageTitle>
+
+<div class=page>
+    <img class=img src="img/me.png">
+
+    <div class=par>
+        @settings.LnString("Владимир Борисович Макайда", "Makajda Vladimir Borisovich")
+    </div>
+    <div class=par>
+        @settings.LnString("Прикладная математика, ДИИТ", "Applied Mathematics")
+    </div>
+    <div class=par>
+        @settings.LnString("Я живу в городе Батайске Ростовской области", "Batajsk, Rostov-on-Don")
+    </div>
+    <div class=par>
+        @settings.LnString("Спокоен, стабилен, надёжен", "Calm, stable, reliable")
+    </div>
+    <div class=par>
+        @settings.LnString("Всегда в тренде современной методологии, языков, инструментов программирования", "Always in the trend of modern methodology, languages, programming tools")
+    </div>
+    <div class=par>
+        @settings.LnString("Хобби - лёгкие покатушки на малокубатурном байке", "My hobby is light motorcycle trips")
+    </div>
+
+</div>
+
+@code {
+    [CascadingParameter] public Erowa Erowa{ get; set; }
+}

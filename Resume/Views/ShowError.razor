@@ -1,0 +1,14 @@
+﻿<MudStack Row Justify="Justify.SpaceBetween" Class="fixed-bottom z-100" Style="@($"visibility:{(Message is null ? "hidden":"visible")};bottom:2.5rem;background:pink;")">
+    <MudText Class="pa-8" Typo="Typo.subtitle1">@Message</MudText>
+    <MudButton Class="border-0" @onclick="Close">
+        <MudIcon Color="Color.Primary" Icon="@Icons.Material.Filled.Close" />
+    </MudButton>
+</MudStack>
+
+@code {
+    [Parameter] public string Message { get; set; }
+
+    void Close() {
+        Message = null;
+    }
+}

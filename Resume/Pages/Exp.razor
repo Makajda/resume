@@ -1,0 +1,116 @@
+﻿@page "/Exp"
+@inject Settings settings
+
+<PageTitle>Makajda - Experience</PageTitle>
+
+<MudExpansionPanels Elevation="0" DisableBorders>
+
+    <MudExpansionPanel HideIcon IsInitiallyExpanded>
+        <TitleContent>
+            <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
+                <MudText Typo=Typo.body2>@settings.LnString("ООО ТС Цифровые технологии Иннотех", "OOO TS Digital Technologies Innotech")</MudText>
+                <MudText Typo=Typo.body2>2021</MudText>
+            </MudStack>
+        </TitleContent>
+        <ChildContent>
+            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Senior Developer</MudText>
+            <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                @settings.LnString(
+                "Развитие учёта валютных операций и золотовалютных резервов банка",
+                "Development of accounting for foreign exchange operations and gold and foreign exchange reserves of the bank")
+            </MudText>
+            <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, wpf, devexpress, entity framework, sql</MudText>
+        </ChildContent>
+    </MudExpansionPanel>
+
+    <MudExpansionPanel HideIcon>
+        <TitleContent>
+            <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
+                <MudText Typo=Typo.body2>@settings.LnString("ООО Робин ГК Аплана", "OOO Robin GK Aplana")</MudText>
+                <MudText Typo=Typo.body2>2020</MudText>
+            </MudStack>
+        </TitleContent>
+        <ChildContent>
+            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Senior System Architect</MudText>
+            <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                @settings.LnString(
+                "Создание платформы RPA. Помимо текущих задач, по эскизам на Figma мною был разработан Player для запуска роботов",
+                "Creation of the RPA platform. In addition to the current tasks, according to sketches on Figma, I developed a Player to launch robots")
+            </MudText>
+            <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, wpf, prism library, zeromq, protobuf, telerik, excel/word interop and much more</MudText>
+        </ChildContent>
+    </MudExpansionPanel>
+
+    <MudExpansionPanel HideIcon>
+        <TitleContent>
+            <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
+                <MudText Typo=Typo.body2>
+                    @settings.LnString(
+                    "Ростовское региональное управление Центра Желдорконтроль ОАО РЖД",
+                    "Rostov regional department of the Zheldorcontrol Center of Russian Railways")
+                </MudText>
+                <MudText Typo=Typo.body2>2001-2019</MudText>
+            </MudStack>
+        </TitleContent>
+        <ChildContent>
+            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Leading Specialist</MudText>
+            <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                @settings.LnString(
+                "Создание продукта для учёта и анализа нарушений, выявленных внутренним финансовым контролем ОАО РЖД",
+                "Creation of a product for accounting and analysis of violations identified by the internal financial control of Russian Railways")
+            </MudText>
+            <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, sql, wcf, asp net, wpf, entity framework, prism library, net office, sqlite, active directory</MudText>
+        </ChildContent>
+    </MudExpansionPanel>
+
+    <MudExpansionPanel HideIcon>
+        <TitleContent>
+            <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
+                <MudText Typo=Typo.body2>@settings.LnString("СКЖД", "SKZD")</MudText>
+                <MudText Typo=Typo.body2>1996-2000</MudText>
+            </MudStack>
+        </TitleContent>
+        <ChildContent>
+            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Developer</MudText>
+            <MudText Style="white-space:pre-line" Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                @settings.LnString(
+                "Я имею самостоятельный опыт создания, разработки, ведения дела и внедрения программы автоматизации бухгалтерского учёта на десятке предприятий " +
+                "Северокавказской железной дороги и центральной бухгалтерии дороги.\nЗатем этот продукт был заменен SAP/R3",
+                "I have independent experience in creating, developing, running a business and implementing an accounting automation program for a dozen large enterprises " +
+                "North Caucasian Railway and Central Road Accounting.\nThis product was then replaced by SAP/R3")
+            </MudText>
+        </ChildContent>
+    </MudExpansionPanel>
+
+    <MudExpansionPanel HideIcon>
+        <TitleContent>
+            <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
+                <MudText Typo=Typo.body2>@settings.LnString("ИВЦ СКЖД", "IVC SKZD")</MudText>
+                <MudText Typo=Typo.body2>1990-1995</MudText>
+            </MudStack>
+        </TitleContent>
+        <ChildContent>
+            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Developer</MudText>
+            <MudText Style="white-space:pre-line" Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                @settings.LnString(
+                "Более старые проекты были разработками на железнодорожную тематику.\n\n" +
+                "Например, учёт и выписка дефектных ведомостей деповского ремонта грузовых вагонов, анализ работ и материалов.\n\n" +
+                "Занимался автоматизацией сводной отчётности дороги, экономическими задачами.\n\n" +
+                "Разработал программу расчёта и распределения штрафов за просрочку в доставке грузов, ведение претензионно-исковой работы.\n\n" +
+                "Ранее работал с технологическими центрами подготовки перевозочных документов. Разработал программу для статистической обработки документов.",
+
+                "Older projects were railway-themed designs.\n\n" +
+                "For example, accounting and issuing defective lists of depot repairs of freight cars, analysis of work and materials.\n\n" +
+                "He was engaged in the automation of the summary reporting of the road, economic tasks.\n\n" +
+                "Developed a program for calculating and distributing fines for late delivery of goods, conducting claims and lawsuits.\n\n" +
+                "Previously, he worked with technology centers for the preparation of shipping documents. Developed a program for statistical processing of documents.")
+            </MudText>
+        </ChildContent>
+    </MudExpansionPanel>
+
+</MudExpansionPanels>
+
+
+@code {
+    [CascadingParameter] public Erowa Erowa { get; set; }
+}

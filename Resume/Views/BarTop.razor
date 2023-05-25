@@ -1,0 +1,32 @@
+﻿@inject NavigationManager navigationManager
+
+<MudAppBar Class="bg-white" Elevation=0 Fixed>
+
+    <MudSpacer />
+
+    <MudButton Class="mr-1" Href="/">
+        <MudImage Src="img/menuNow.png" Height=@height />
+    </MudButton>
+
+    <MudButton Class="mr-1" Href="/Exp">
+        <MudImage Src="img/menuExp.png" Height=@height />
+    </MudButton>
+
+    <MudButton Class="mr-1" Href="/Pet">
+        <MudImage Src="img/menuPet.png" Height=@height />
+    </MudButton>
+
+    <MudButton Class="mr-1" Href="/Bio">
+        <MudImage Src="img/menuBio.png" Height=@height />
+    </MudButton>
+
+    <MudSpacer />
+
+    <MudIconButton Size=Size.Medium Color=Color.Primary OnClick="()=>Erowa.SetLanguage()" Icon="@Icons.Material.TwoTone.Flag" />
+
+</MudAppBar>
+
+@code {
+    [CascadingParameter] public Erowa Erowa { get; set; }
+    const int height = 50;
+}

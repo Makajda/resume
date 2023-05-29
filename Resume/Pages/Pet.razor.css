@@ -57,8 +57,7 @@
 }
 
 .imglink {
-    max-width: 120pt;
-    max-height: 120pt;
+    height: 50px;
 }
 
 .note {

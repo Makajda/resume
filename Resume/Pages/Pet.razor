@@ -11,6 +11,26 @@
     </p>
 
     <div class=proj>
+        <a class=link href="https://play.google.com/store/apps/details?id=com.Makajda.Celebratexp">
+            <img class=imglink src="img/storeGoogle.png">
+        </a>
+        <span class=year>2023 </span>
+        <span class=tech>C#, Blazor </span>
+        @if (settings.Language) {
+            <p>
+                <span class=name>Extra Holiday</span><span class=remark>мобильный Blazor</span>
+                <span class=desc>Показ круглых событий от указанных дат. Отмечайте с Юпитером, Марсом, Венерой</span>
+            </p>
+        }
+        else {
+            <p>
+                <span class=name>Extra Holiday</span><span class=remark>mobile Blazor</span>
+                <span class=desc>Show round events from specified dates. Celebrate with Jupiter, Mars, Venus</span>
+            </p>
+        }
+    </div>
+
+    <div class=proj>
         <a class=link href="https://makajda.github.io/G3g7/">
             <img class=imglink src="img/asAboveSoBelow.png">
         </a>
@@ -27,12 +47,12 @@
 
     <div class=proj>
         <span class=year>2020 </span>
-        <span class=tech>C#, .net5 </span>
+        <span class=tech>C#, WPF </span>
         @if (settings.Language) {
-            <p><span class=name>Добыча...</span><span class=remark>все на .net6</span><span class=desc>Фильтрованные новости</span></p>
+            <p><span class=name>Добыча...</span><span class=remark>XAML</span><span class=desc>Фильтрованные новости</span></p>
         }
         else {
-            <p><span class=name>Retrieving...</span><span class=remark>everybody on .net6</span><span class=desc>The filtered news</span></p>
+            <p><span class=name>Retrieving...</span><span class=remark>XAML</span><span class=desc>The filtered news</span></p>
         }
     </div>
 
@@ -52,37 +72,6 @@
             <p>
                 <span class=name>Catan spice</span><span class=remark></span>
                 <span class=desc>Random initial placement of resources for the Catan board game</span>
-            </p>
-        }
-    </div>
-
-    <div class=proj>
-        <span class=year>2019 </span>
-        <span class=tech>C#, Xamarin Forms </span>
-        @if (settings.Language) {
-            <p><span class=name>Play Gospels</span><span class=remark>интересно</span><span class=desc>Изучение Евангелий на семи языках</span></p>
-        }
-        else {
-            <p><span class=name>Play Gospels</span><span class=remark>interesting</span><span class=desc>Studying the Gospels in Seven Languages</span></p>
-        }
-    </div>
-
-    <div class=proj>
-        <a class=link href="https://play.google.com/store/apps/details?id=com.Makajda.Celebratexp">
-            <img class=imglink src="img/storeGoogle.png">
-        </a>
-        <span class=year>2019 </span>
-        <span class=tech>C#, Xamarin Forms </span>
-        @if (settings.Language) {
-            <p>
-                <span class=name>Celebratexp</span><span class=remark>мобильный XAML</span>
-                <span class=desc>Показ круглых событий от указанных дат. Отмечайте с Юпитером, Марсом, Венерой</span>
-            </p>
-        }
-        else {
-            <p>
-                <span class=name>Celebratexp</span><span class=remark>mobile XAML</span>
-                <span class=desc>Show round events from specified dates. Celebrate with Jupiter, Mars, Venus</span>
             </p>
         }
     </div>

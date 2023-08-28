@@ -2,19 +2,17 @@
 
     <MudSpacer />
 
-    <MudButton Class="mr-1" Href="Now">
-        <MudImage Src="img/menuNow.png" Height=@height />
-    </MudButton>
+    @* <MudImage Src="img/menuNow.png" Height=@height /> *@
 
-    <MudButton Class="mr-1" Href="Exp">
+    <MudButton Class="mr-1" Href=@nameof(Exp)>
         <MudImage Src="img/menuExp.png" Height=@height />
     </MudButton>
 
-    <MudButton Class="mr-1" Href="Pet">
+    <MudButton Class="mr-1" Href=nameof(Pet)>
         <MudImage Src="img/menuPet.png" Height=@height />
     </MudButton>
 
-    <MudButton Class="mr-1" Href="Bio">
+    <MudButton Class="mr-1" Href=nameof(Bio)>
         <MudImage Src="img/menuBio.png" Height=@height />
     </MudButton>
 

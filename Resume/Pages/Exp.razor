@@ -9,91 +9,157 @@
     <MudExpansionPanel HideIcon IsInitiallyExpanded>
         <TitleContent>
             <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
-                <MudText Typo=Typo.body2>@settings.LnString("ООО ТС Цифровые технологии Иннотех", "OOO TS Digital Technologies Innotech")</MudText>
-                <MudText Typo=Typo.body2>2021</MudText>
-            </MudStack>
-        </TitleContent>
-        <ChildContent>
-            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Senior Developer</MudText>
-            <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
-                @settings.LnString(
+                 <MudText Typo=Typo.body2>@settings.LnString("Инди", "Indie")</MudText>
+                 <MudText Typo=Typo.body2>2022-2023</MudText>
+             </MudStack>
+         </TitleContent>
+         <ChildContent>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Senior System Architect</MudText>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                 @settings.LnString(
+                "Образовательная платформа подготовки старшеклассников к успешной сдаче ЕГЭ",
+                "Educational platform for preparing high school students for the successful passing of state exams")
+             </MudText>
+             <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, sql, blazor, asp net, entity framework, maui, mudblazor</MudText>
+
+             <MudStack Row Class="d-flex justify-content-center my-4">
+                 <MudStack Row Class="d-flex justify-content-between my-4">
+                     <MudButton Href="https://www.querc.ru">
+                         <MudImage Width=@width Src="img/web.png" />
+                     </MudButton>
+
+                     <MudButton Href="https://play.google.com/store/apps/details?id=ru.querc&hl=ru">
+                         <MudImage Width=@width Src="img/storeGoogle.png" />
+                     </MudButton>
+
+                     <MudButton Href="https://apps.microsoft.com/store/detail/querc/9N9X4D298ZVB?hl=ru-tm&gl=tm">
+                         <MudImage Width=@width Src="img/storeMicrosoft.png" />
+                     </MudButton>
+
+                     <MudButton Href="https://t.me/QuercBot">
+                         <MudImage Width=@width Src="img/telegram.png" />
+                     </MudButton>
+                 </MudStack>
+             </MudStack>
+
+             <MudStack Row Class="d-flex justify-content-center my-4">
+                 <MudText Class="mt-8 mb-4" Typo=Typo.body1>@settings.LnString("Для студентов:", "For students:")</MudText>
+
+                 <MudText Typo=Typo.body1>
+                     <ol>
+                         <li>@settings.LnString("Видео уроков и вебинары", "Video lessons and webinars")</li>
+                         <li>@settings.LnString("Конспекты уроков", "Lesson notes")</li>
+                         <li>@settings.LnString("Домашние задания с ключами и проверкой преподавателем", "Homeworks with keys and teacher check")</li>
+                         <li>@settings.LnString("Два тренажёра", "Two simulators")</li>
+                         <li>@settings.LnString("Статистика достижений", "Achievement statistics")</li>
+                     </ol>
+                 </MudText>
+             </MudStack>
+
+             <MudStack Row Class="d-flex justify-content-center my-4">
+                 <MudText Class="mt-8 mb-4" Typo=Typo.body1>
+                     @settings.LnString("Для преподавателя платформа - место, где:", "For a teacher, a platform is a place where:")
+                 </MudText>
+
+                 <MudText Typo=Typo.body1>
+                     <ol>
+                         <li>@settings.LnString("Можно подготовить базу заданий", "You can prepare a high-quality database of tasks")</li>
+                         <li>@settings.LnString("Формировать несколько типов домашних работ по каждому уроку", "Form several types of homework for each lesson")</li>
+                         <li>@settings.LnString("Удобно проверять домашние работы учеников и видеть прогресс", "Conveniently check students' homework and see progress")</li>
+                     </ol>
+                 </MudText>
+             </MudStack>
+         </ChildContent>
+     </MudExpansionPanel>
+
+     <MudExpansionPanel HideIcon IsInitiallyExpanded>
+        <TitleContent>
+            <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
+                 <MudText Typo=Typo.body2>@settings.LnString("ООО ТС Цифровые технологии Иннотех", "OOO TS Digital Technologies Innotech")</MudText>
+                 <MudText Typo=Typo.body2>2021</MudText>
+             </MudStack>
+         </TitleContent>
+         <ChildContent>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Senior Developer</MudText>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                 @settings.LnString(
                 "Развитие учёта валютных операций и золотовалютных резервов банка",
                 "Development of accounting for foreign exchange operations and gold and foreign exchange reserves of the bank")
-            </MudText>
-            <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, wpf, devexpress, entity framework, sql, teamcity</MudText>
-        </ChildContent>
-    </MudExpansionPanel>
+             </MudText>
+             <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, wpf, devexpress, entity framework, sql, teamcity</MudText>
+         </ChildContent>
+     </MudExpansionPanel>
 
-    <MudExpansionPanel HideIcon>
+     <MudExpansionPanel HideIcon>
         <TitleContent>
             <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
-                <MudText Typo=Typo.body2>@settings.LnString("ООО Робин ГК Аплана", "OOO Robin GС Aplana")</MudText>
-                <MudText Typo=Typo.body2>2020</MudText>
-            </MudStack>
-        </TitleContent>
-        <ChildContent>
-            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Senior System Architect</MudText>
-            <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
-                @settings.LnString(
+                 <MudText Typo=Typo.body2>@settings.LnString("ООО Робин ГК Аплана", "OOO Robin GС Aplana")</MudText>
+                 <MudText Typo=Typo.body2>2020</MudText>
+             </MudStack>
+         </TitleContent>
+         <ChildContent>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Senior System Architect</MudText>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                 @settings.LnString(
                 "Создание платформы RPA. Помимо текущих задач, по эскизам на Figma мною был разработан Player для запуска роботов",
                 "Creation of the RPA platform. In addition to the current tasks, according to sketches on Figma, I developed a Player to launch robots")
-            </MudText>
-            <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, wpf, prism library, zeromq, protobuf, telerik, excel/word interop and much more, jira, gitlab, confluence</MudText>
-        </ChildContent>
-    </MudExpansionPanel>
+             </MudText>
+             <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, wpf, prism library, zeromq, protobuf, telerik, excel/word interop and much more, jira, gitlab, confluence</MudText>
+         </ChildContent>
+     </MudExpansionPanel>
 
-    <MudExpansionPanel HideIcon>
+     <MudExpansionPanel HideIcon>
         <TitleContent>
             <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
-                <MudText Typo=Typo.body2>
-                    @settings.LnString(
+                 <MudText Typo=Typo.body2>
+                     @settings.LnString(
                     "Ростовское региональное управление Центра Желдорконтроль ОАО РЖД",
                     "Rostov regional department of the Zheldorcontrol Center of Russian Railways")
-                </MudText>
-                <MudText Typo=Typo.body2>2001-2019</MudText>
-            </MudStack>
-        </TitleContent>
-        <ChildContent>
-            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Leading Specialist</MudText>
-            <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
-                @settings.LnString(
+                 </MudText>
+                 <MudText Typo=Typo.body2>2001-2019</MudText>
+             </MudStack>
+         </TitleContent>
+         <ChildContent>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Leading Specialist</MudText>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                 @settings.LnString(
                 "Создание продукта для учёта и анализа нарушений, выявленных внутренним финансовым контролем ОАО РЖД",
                 "Creation of a product for accounting and analysis of violations identified by the internal financial control of Russian Railways")
-            </MudText>
-            <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, sql, wcf, asp net, wpf, entity framework, prism library, net office, sqlite, active directory</MudText>
-        </ChildContent>
-    </MudExpansionPanel>
+             </MudText>
+             <MudText Class="text-danger" Align=Align.Center Typo=Typo.h6>c#, sql, wcf, asp net, wpf, entity framework, prism library, net office, sqlite, active directory</MudText>
+         </ChildContent>
+     </MudExpansionPanel>
 
-    <MudExpansionPanel HideIcon>
+     <MudExpansionPanel HideIcon>
         <TitleContent>
             <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
-                <MudText Typo=Typo.body2>@settings.LnString("СКЖД", "SKZD")</MudText>
-                <MudText Typo=Typo.body2>1996-2000</MudText>
-            </MudStack>
-        </TitleContent>
-        <ChildContent>
-            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Developer</MudText>
-            <MudText Style="white-space:pre-line" Align=Align.Center Typo=Typo.body1 Class="ma-4">
-                @settings.LnString(
+                 <MudText Typo=Typo.body2>@settings.LnString("СКЖД", "SKZD")</MudText>
+                 <MudText Typo=Typo.body2>1996-2000</MudText>
+             </MudStack>
+         </TitleContent>
+         <ChildContent>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Developer</MudText>
+             <MudText Style="white-space:pre-line" Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                 @settings.LnString(
                 "Я имею самостоятельный опыт создания, разработки, ведения дела и внедрения программы автоматизации бухгалтерского учёта на десятке предприятий " +
                 "Северокавказской железной дороги и центральной бухгалтерии дороги.\nЗатем этот продукт был заменен SAP/R3",
                 "I have independent experience in creating, developing, running a business and implementing an accounting automation program for a dozen large enterprises " +
                 "North Caucasian Railway and Central Road Accounting.\nThis product was then replaced by SAP/R3")
-            </MudText>
-        </ChildContent>
-    </MudExpansionPanel>
+             </MudText>
+         </ChildContent>
+     </MudExpansionPanel>
 
-    <MudExpansionPanel HideIcon>
+     <MudExpansionPanel HideIcon>
         <TitleContent>
             <MudStack Row Class="d-flex justify-content-between bg-info pa-6">
-                <MudText Typo=Typo.body2>@settings.LnString("ИВЦ СКЖД", "IVC SKZD")</MudText>
-                <MudText Typo=Typo.body2>1990-1995</MudText>
-            </MudStack>
-        </TitleContent>
-        <ChildContent>
-            <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Developer</MudText>
-            <MudText Style="white-space:pre-line" Align=Align.Center Typo=Typo.body1 Class="ma-4">
-                @settings.LnString(
+                 <MudText Typo=Typo.body2>@settings.LnString("ИВЦ СКЖД", "IVC SKZD")</MudText>
+                 <MudText Typo=Typo.body2>1990-1995</MudText>
+             </MudStack>
+         </TitleContent>
+         <ChildContent>
+             <MudText Align=Align.Center Typo=Typo.body1 Class="text-secondary">Developer</MudText>
+             <MudText Style="white-space:pre-line" Align=Align.Center Typo=Typo.body1 Class="ma-4">
+                 @settings.LnString(
                 "Более старые проекты были разработками на железнодорожную тематику.\n\n" +
                 "Например, учёт и выписка дефектных ведомостей деповского ремонта грузовых вагонов, анализ работ и материалов.\n\n" +
                 "Занимался автоматизацией сводной отчётности дороги, экономическими задачами.\n\n" +
@@ -105,13 +171,14 @@
                 "He was engaged in the automation of the summary reporting of the road, economic tasks.\n\n" +
                 "Developed a program for calculating and distributing fines for late delivery of goods, conducting claims and lawsuits.\n\n" +
                 "Previously, he worked with technology centers for the preparation of shipping documents. Developed a program for statistical processing of documents.")
-            </MudText>
-        </ChildContent>
-    </MudExpansionPanel>
+             </MudText>
+         </ChildContent>
+     </MudExpansionPanel>
 
-</MudExpansionPanels>
+ </MudExpansionPanels>
 
 
-@code {
+ @code {
     [CascadingParameter] public Erowa Erowa { get; set; }
+    const int width = 45;
 }

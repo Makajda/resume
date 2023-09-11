@@ -4,5 +4,5 @@ public class Settings {
 
     public void SetLanguage() => Language = !Language;
 
-    public string LnString(string ru, string en) => Language ? en : ru;
+    public string LnString(string ru, string en) => Language ? ru : en;
 }

@@ -1,12 +1,21 @@
-using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using MudBlazor.Services;
+var builder = WebApplication.CreateBuilder(args);
 
-var builder = WebAssemblyHostBuilder.CreateDefault(args);
-builder.RootComponents.Add<App>("#app");
-builder.RootComponents.Add<HeadOutlet>("head::after");
+// Add services to the container.
+builder.Services.AddRazorComponents().AddInteractiveServerComponents();
+builder.Services.
 
-builder.Services.AddMudServices();
-builder.Services.AddScoped<Settings>();
+var app = builder.Build();
 
-await builder.Build().RunAsync();
+if (!app.Environment.IsDevelopment()) {
+    app.UseExceptionHandler("/Error", true);
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+
+app.UseStaticFiles();
+app.UseAntiforgery();
+
+app.MapRazorComponents<App>().AddInteractiveServerRenderMode();
+
+app.Run();

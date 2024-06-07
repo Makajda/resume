@@ -10,6 +10,8 @@
         </MudLayout>
     </ChildContent>
     <ErrorContent>
-        <ShowError Message="@($"{context.Message}")" />
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">@context.Message</p>
+        </LayoutView>
     </ErrorContent>
 </ErrorBoundary>

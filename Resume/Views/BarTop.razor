@@ -1,8 +1,8 @@
-﻿<MudAppBar Class="bg-white" Elevation=0 Fixed>
+﻿@inject Settings settings
+
+<MudAppBar Class="bg-white" Elevation=0 Fixed>
 
     <MudSpacer />
-
-    @* <MudImage Src="img/menuNow.png" Height=@height /> *@
 
     <MudButton Class="mr-1" Href=@nameof(Exp)>
         <MudImage Src="img/menuExp.png" Height=@height />
@@ -18,11 +18,15 @@
 
     <MudSpacer />
 
-    <MudIconButton Size=Size.Medium Color=Color.Primary OnClick="()=>Erowa.SetLanguage()" Icon="@Icons.Material.TwoTone.Flag" />
+    <MudIconButton Size=Size.Medium Color=Color.Primary OnClick=SetLanguage Icon="@Icons.Material.TwoTone.Flag" />
 
 </MudAppBar>
 
 @code {
-    [CascadingParameter] public Erowa Erowa { get; set; }
     const int height = 50;
+
+    public void SetLanguage() {
+        settings.SetLanguage();
+        StateHasChanged();
+    }
 }

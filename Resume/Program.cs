@@ -1,8 +1,13 @@
+using MudBlazor.Services;
+using Resume.Common;
+using Resume.Views;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddRazorComponents().AddInteractiveServerComponents();
-builder.Services.
+builder.Services.AddMudServices();
+builder.Services.AddScoped<Settings>();
+
 
 var app = builder.Build();
 

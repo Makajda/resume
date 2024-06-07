@@ -4,29 +4,30 @@
 
     <MudSpacer />
 
-    <MudButton Class="mr-1" Href=@nameof(Exp)>
+    <MudButton Class="rounded-circle" Href=@nameof(Exp)>
         <MudImage Src="img/menuExp.png" Height=@height />
     </MudButton>
 
-    <MudButton Class="mr-1" Href=@nameof(Pet)>
+    <MudButton Class="rounded-circle mx-5" Href=@nameof(Pet)>
         <MudImage Src="img/menuPet.png" Height=@height />
     </MudButton>
 
-    <MudButton Class="mr-1" Href=@nameof(Bio)>
+    <MudButton Class="rounded-circle" Href=@nameof(Bio)>
         <MudImage Src="img/menuBio.png" Height=@height />
     </MudButton>
 
     <MudSpacer />
 
-    <MudIconButton Size=Size.Medium Color=Color.Primary OnClick=SetLanguage Icon="@Icons.Material.TwoTone.Flag" />
+    <MudFab Size=Size.Small DisableElevation Color=Color.Success OnClick=SetLanguage StartIcon=@Icons.Material.Outlined.Fitbit />
 
 </MudAppBar>
 
 @code {
+    [Parameter] public EventCallback LanguageChanged { get; set; }
     const int height = 50;
 
     public void SetLanguage() {
-        settings.SetLanguage();
-        StateHasChanged();
+        settings.Language = !settings.Language;
+        LanguageChanged.InvokeAsync();
     }
 }

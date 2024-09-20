@@ -13,11 +13,31 @@
     </p>
 
     <div class=proj>
+        <a class=link href="https://kedede.com">
+            <img class=imglink src="img/web.png">
+        </a>
+        <span class=year>2024</span>
+        <span class=tech>C#, Blazor</span>
+        @if (settings.Language) {
+            <p>
+                <span class=name>Служба объявлений</span><span class=remark>даром</span>
+                <span class=desc>Сделай объявление, найди, что нужно и не очень</span>
+            </p>
+        }
+        else {
+            <p>
+                <span class=name>Advertisement service</span><span class=remark>free</span>
+                <span class=desc>Make an ad, find what you need and what you don't</span>
+            </p>
+        }
+    </div>
+
+    <div class=proj>
         <a class=link href="https://play.google.com/store/apps/details?id=com.Makajda.Celebratexp">
             <img class=imglink src="img/storeGoogle.png">
         </a>
-        <span class=year>2023 </span>
-        <span class=tech>C#, Blazor </span>
+        <span class=year>2023</span>
+        <span class=tech>C#, Blazor</span>
         @if (settings.Language) {
             <p>
                 <span class=name>Extra Holiday</span><span class=remark>мобильный Blazor</span>
@@ -34,11 +54,11 @@
 
     <div class=proj>
         <a class=link href="https://makajda.github.io/G3g7/">
-            <img class=imglink src="img/asAboveSoBelow.png">
+            <img class=imglink src="img/web.png">
         </a>
         <span class=link></span>
-        <span class=year>2021 </span>
-        <span class=tech>C#, Blazor </span>
+        <span class=year>2021</span>
+        <span class=tech>C#, Blazor</span>
         @if (settings.Language) {
             <p><span class=name>Силы и октавы</span><span class=remark>заблейзорабило</span><span class=desc>По следу Гурджиева</span></p>
         }
@@ -48,8 +68,8 @@
     </div>
 
     <div class=proj>
-        <span class=year>2020 </span>
-        <span class=tech>C#, WPF </span>
+        <span class=year>2020</span>
+        <span class=tech>C#, WPF</span>
         @if (settings.Language) {
             <p><span class=name>Добыча...</span><span class=remark>XAML</span><span class=desc>Фильтрованные новости</span></p>
         }
@@ -62,8 +82,8 @@
         <a class=link href="https://play.google.com/store/apps/details?id=com.makajda.catanspice">
             <img class=imglink src="img/storeGoogle.png">
         </a>
-        <span class=year>2020 </span>
-        <span class=tech>Kotlin, Android </span>
+        <span class=year>2020</span>
+        <span class=tech>Kotlin, Android</span>
         @if (settings.Language) {
             <p>
                 <span class=name>Catan spice</span><span class=remark>Котлин</span>
@@ -82,8 +102,8 @@
         <a class=link href="https://www.microsoft.com/store/apps/9wzdncrdctzh">
             <img class=imglink src="img/storeMicrosoft.png">
         </a>
-        <span class=year>2013 </span>
-        <span class=tech>C#, UWP </span>
+        <span class=year>2013</span>
+        <span class=tech>C#, UWP</span>
         @if (settings.Language) {
             <p>
                 <span class=name>Happy Route</span><span class=remark>плюс флэшмоб</span><span class=desc>
@@ -91,7 +111,7 @@
                     В образцы для использования и правки включены схемы метро в городах
                     Берлин, Вашингтон, Лондон, Мадрид, Мехико, Милан, Москва, Мюнхен,
                     Нью-Йорк, Париж, Сеул, Токио и Пекин
-                </span>
+               </span>
             </p>
         }
         else {
@@ -101,7 +121,7 @@
                     Subway maps in cities are included in the samples for use and editing
                     Berlin, Washington, London, Madrid, Mexico City, Milan, Moscow, Munich,
                     New York, Paris, Seoul, Tokyo and Beijing
-                </span>
+               </span>
             </p>
         }
     </div>

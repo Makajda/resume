@@ -27,7 +27,13 @@
 .img[b-wku0udckwk] {
     float: right;
     padding: 0 0 10pt 10pt;
-    max-width: 25%;
+    max-width: 33%;
+}
+
+.imgy[b-wku0udckwk] {
+    border-radius:30px;
+    padding: 0 10pt 0 0;
+    max-width: 50%;
 }
 /* /Pages/Pet.razor.rz.scp.css */
 .page[b-ou3mnbi8uf] {

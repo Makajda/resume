@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Resume",
   "resources": {
-    "hash": "sha256-wA5QOpAAzA/uvXp0yDCktTgqjJHgGA0SlwvR7EZkTBc=",
+    "hash": "sha256-Qv8glS1cKhySstUAWRVpG/plthnCi0VKBJOz66Ro2nA=",
     "jsModuleNative": {
       "dotnet.native.8.0.15.l5bze06whq.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -34,7 +34,7 @@
       "Microsoft.JSInterop.wasm": "sha256-sQ34qlxDFXKQbcyPES9llBTMgxMUB0Z75oiR+Jr1WzA=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-sLSiCKh0RQEV/2cl05tr7wOLWzExQfPZovvpqYLJduQ=",
       "MudBlazor.wasm": "sha256-smh7QhlMa4XX0MlkhDCNC5aAcguABficn+rNHryoY0s=",
-      "Resume.wasm": "sha256-KbFJ+VeWotvV+7FODONXfdql1Pei2v8KLbScGImAwns=",
+      "Resume.wasm": "sha256-WDtQZFHPoZAnSw1ePndUKIlp3LlpgPRpCMd3JKvOmtU=",
       "System.Collections.Concurrent.wasm": "sha256-C3K6rxMp525cHZ1D7RFV2L05YV7l9cBJoMZmHmnZohk=",
       "System.Collections.Immutable.wasm": "sha256-iLauHfPGxK3hIixfKbNIE6PYnGdP32o0gHhbJlFFT/4=",
       "System.Collections.wasm": "sha256-lDntaR6V9TsTouJQ3u7uAO9Ke+Y+a6HVBRzLMubvPAo=",

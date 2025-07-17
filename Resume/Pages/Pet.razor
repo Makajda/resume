@@ -13,6 +13,28 @@
     </p>
 
     <div class=proj>
+        <a class=link href="https://api.kedede.com">
+            <img class=imglink src="img/web.png">
+        </a>
+        <span class=year>2025</span>
+        <span class=tech>C#, Blazor, Skia</span>
+        @if (settings.Language) {
+            <p>
+                <span class=name>Earth</span><span class=remark>потепление</span><span class=desc>
+                    Любопытная модель Земли
+                </span>
+            </p>
+        }
+        else {
+            <p>
+                <span class=name>Earth</span><span class=remark>warming</span><span class=desc>
+                    A curious model of the Earth
+                </span>
+            </p>
+        }
+    </div>
+
+    <div class=proj>
         <a class=link href="https://play.google.com/store/apps/details?id=com.companyname.happyroute5">
             <img class=imglink src="img/storeGoogle.png">
         </a>
@@ -24,14 +46,14 @@
         @if (settings.Language) {
             <p>
                 <span class=name>Happy Route</span><span class=remark>плюс флэшмоб</span><span class=desc>
-                    Схемы метро, определение оптимальных маршрутов.
+                    Схемы метро, определение оптимальных маршрутов
                 </span>
             </p>
         }
         else {
             <p>
                 <span class=name>Happy Route</span><span class=remark>plus flashmob</span><span class=desc>
-                    Metro and determination of optimal routes.
+                    Metro and determination of optimal routes
                 </span>
             </p>
         }

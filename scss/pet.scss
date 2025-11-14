@@ -1,14 +1,13 @@
-﻿.page {
+.pet-content {
     background-color: rgb(185, 247, 213);
-    padding: 10pt 30pt;
-    border-radius: 8pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px 36px;
+    border-radius: 10px;
     margin-top: 64px;
 }
 
 .title {
-    margin-bottom: 30pt;
-    padding: 10pt;
+    margin-bottom: 38px;
+    padding: 14px;
     color: rgb(73, 141, 6);
     font-family: cursive;
     text-align: center;
@@ -16,10 +15,10 @@
 
 .proj {
     background: linear-gradient(23deg, rgba(255, 255, 255, 0.6) 0%, rgba(156, 191, 236, 0.6) 10%, rgba(159, 240, 243, 0.6) 30%, rgba(159, 240, 243, 0.6) 70%, rgba(99, 161, 241, 0.6) 90%, rgba(255, 255, 255, 0.6) 100%);
-    border-radius: 8pt;
-    box-shadow: 0 0 20pt rgba(0,0,0,0.5);
-    margin-bottom: 20pt;
-    padding: 30pt;
+    border-radius: 10px;
+    box-shadow: 0 0 26px rgba(0,0,0,0.5);
+    margin-bottom: 26px;
+    padding: 38px;
     text-align: justify;
     overflow: auto;
 }
@@ -40,17 +39,17 @@
 }
 
 .remark {
-    padding-left: 10pt;
+    padding-left: 14px;
     color: darkolivegreen;
 }
 
 .desc {
-    padding-left: 10pt;
+    padding-left: 14px;
 }
 
 .link {
     float: right;
-    padding-left: 10pt;
+    padding-left: 14px;
     font-size: smaller;
     font-style: italic;
     color: purple;

@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    gap: 1em;
+    gap: 16px;
     align-items: center;
     margin-bottom: 64px;
 }
@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 16px;
     grid-column: 2;
     grid-row: 3;
 }

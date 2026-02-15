@@ -36,6 +36,17 @@ a {
   margin-left: 48px;
 }
 
+.tech {
+  margin: 24px 0;
+}
+
+.tech-det {
+  margin-right: 4px;
+  padding: 8px;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+}
+
 .exp-li {
   background-color: yellow;
   color: blue;

@@ -1,46 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 html {
   font-family: Roboto, sans-serif;
-  --heightop: 64px;
-}
-
-.main-container {
-  max-width: 1240px;
-  margin: 0 auto;
-}
-
-.top-bar {
-  max-width: 1240px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: var(--heightop);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  background-color: white;
-  opacity: 0.93;
-}
-
-.top-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-  cursor: pointer;
-}
-.top-nav:hover {
-  border: 4px solid bisque;
-}
-.top-nav:focus {
-  border: 4px solid bisque;
-}
-.top-nav-sel {
-  border: 3px solid bisque;
-}
-
-.main-content {
-  margin-top: var(--heightop);
-  font-size: 16px;
+  --heightop: 16px;
 }
 
 a {
@@ -49,19 +10,49 @@ a {
   transition: 0.2s;
 }
 
+.main-container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.main-content {
+  margin-top: var(--heightop);
+  font-size: 16px;
+}
+
 .exp-content {
   background-color: white;
 }
 
 .exp-title {
   background-color: lightblue;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 12px;
-  margin-bottom: 16px;
-  font-size: 16px;
+}
+
+.exp-det {
+  margin-left: 48px;
+}
+
+.exp-li {
+  background-color: yellow;
+  color: blue;
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  width: 99px;
+}
+
+.exp-lt {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 12px;
 }
 
 .exp-job {

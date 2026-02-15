@@ -10,107 +10,193 @@
 <body>
     <div class="main-container">
 
-        <nav class="top-bar">
-			<a href="." class="top-nav top-nav-sel"><img height=48 src="img/menuExp.png" /></a>
-			<a href="pet.html" class="top-nav"><img height=48 src="img/menuPet.png" /></a>
-			<a href="bio.html" class="top-nav"><img height=48 src="img/menuBio.png" /></a>
-		</nav>
-
-		<section class="main-content exp-content">
-			<article>
-				<div class="exp-title">
-					<img height="30" src="img/rost.svg">
-					<div>ИП Рост</div>
-					<div>2022-2025</div>
+		<details open class="main-content exp-content">
+			<summary class="exp-title">Applied Systems Engineer</summary>
+			<div class="exp-det" style="margin-top: 16px;">
+				<div>Background in applied mathematics and long-term building robust software development.</div>
+				<div>I work on software systems that interact with real-world constraints — infrastructure, data flows, people, and processes.</div>
+				<div>Interested in remote or international projects where clarity, reliability,  correctness and system thinking matter. Based in Russia, open to contracts in global markets and ready to moving.</div>
+			</div>
+		</details>
+		
+		<details open class="main-content exp-content">
+			<summary class="exp-title">
+				Happy Route — Urban Transit Routing Tool
+			</summary>
+			<div class="exp-det">
+				<div class="exp-li">Problem</div>
+				<div class="exp-lt">
+					Urban transit systems are structurally complex and sometime poorly represented in consumer applications, making it difficult to compute reliable routes across multi-modal transport networks with inconsistent public data.
 				</div>
-
-				<div class="exp-job">
-					<div class="exp-job-text">Создание образовательной платформы для подготовки старшеклассников к успешной сдаче ЕГЭ</div>
-					<div class="exp-job-title">Senior Developer</div>
-					<div class="exp-job-tech">c#, asp net, sql, entity framework, blazor, maui</div>
-					<div class="exp-job-info">
-						<a href="https://www.rostrost.ru"><img height=35 src="img/web.png" /></a>
-						<a href="https://play.google.com/store/apps/details?id=ru.querc&hl=ru"><img height=35 src="img/storeGoogle.png" /></a>
-						<a href="https://apps.microsoft.com/store/detail/querc/9N9X4D298ZVB?hl=ru-tm&gl=tm"><img height=35 src="img/storeMicrosoft.png" /></a>
-						<a href="https://t.me/RostrostBot"><img height=35 src="img/telegram.png" /></a>
-					</div>
+				<div class="exp-li">Role</div>
+				<div class="exp-lt">
+					Designed and implemented a routing engine for urban transport graphs, supporting multiple cities with differing network structures and data formats.
+					Built data ingestion pipelines to normalize heterogeneous transit datasets and enable consistent path computation.
+					Delivered a cross-platform interface (web/mobile) exposing optimized routes based on time and transfer constraints.
 				</div>
-			</article>
-
-			<article>
-				<div class="exp-title">
-					<img height="30" src="img/VTB_Logo_2018.svg">
-					<div>ТС Цифровые технологии Иннотех</div>
-					<div>2021</div>
+				<div class="exp-li">Technologies</div>
+				<div class="exp-lt">
+					C#, .NET MAUI, Blazor, Skia; varied city data inputs.
 				</div>
-
-				<div class="exp-job">
-					<div class="exp-job-text">Развитие учёта валютных операций и золотовалютных резервов банка</div>
-					<div class="exp-job-title">Senior Developer</div>
-					<div class="exp-job-tech">c#, wpf, devexpress, entity framework, sql, teamcity</div>
-					<div class="exp-job-info">
-						<a href="https://inno.tech/ru/"><img height=20 src="img/VTB_Logo_2018.svg" /></a>
-					</div>
+				<div class="exp-li">Outcome</div>
+				<div class="exp-lt">
+					Demonstrated routing metro across 24 major global cities; optimized path calculations consistent at scale. 
+					Helps people save time when choosing a route, plan a trip along the tracks, navigate an unfamiliar city quickly and stress-free.
 				</div>
-			</article>
-
-			<article>
-				<div class="exp-title">
-					<img height="30" src="img/robin.png">
-					<div>Робин ГК Аплана</div>
-					<div>2020</div>
+				<div class="exp-li">Links</div>
+				<div class="exp-lt">GitHub link, store link</div>
+			</div>
+		</details>
+		
+		<details open class="main-content exp-content">
+			<summary class="exp-title">
+				Rost (Querc) — Gamified National University Entrance Exam Preparation Platform
+			</summary>
+			<div class="exp-det">
+				<div class="exp-li">Problem</div>
+				<div class="exp-lt">
+					High school students preparing for a centralized national university entrance exam face high academic pressure and require not only subject knowledge, but sustained motivation, structured practice, and exam-specific skills. Traditional tutoring often lacks long-term engagement mechanisms.
 				</div>
-
-				<div class="exp-job">
-					<div class="exp-job-text">Создание платформы RPA. Помимо разновекторных текущих задач, по эскизам на Figma мною был разработан Player для запуска роботов.</div>
-					<div class="exp-job-title">Senior Developer</div>
-					<div class="exp-job-tech">c#, wpf, prismlibrary, rabbitmq, protobuf, telerik, excel/word interop and much more, jira, gitlab, confluence</div>
-					<div class="exp-job-info">
-						<a href="https://rpa-robin.ru/"><img height=30 src="img/robin.png" /></a>
-					</div>
+				<div class="exp-li">Role</div>
+				<div class="exp-lt">
+					Designed and built a full-cycle exam preparation platform combining video lessons, interactive exercises, mini-games, ranked progression, structured assignments, and regular mock exams.
+					Architected the system to maintain continuous engagement throughout the academic year using progression mechanics and performance tracking.
+					Led product design and end-to-end development from concept to production.
 				</div>
-			</article>
-
-			<article>
-				<div class="exp-title">
-					<img height="30" src="img/RZD.svg">
-					<div>Центр Желдорконтроль ОАО РЖД</div>
-					<div>2001-2019</div>
+				<div class="exp-li">Technologies</div>
+				<div class="exp-lt">
+					C#, ASP Net Core, Blazor, MS SQL Server, Entity Framework, MudBlazor, Tailwind.
 				</div>
-
-				<div class="exp-job">
-					<div class="exp-job-text">Создание продукта для учёта и анализа нарушений, выявленных внутренним финансовым контролем ОАО РЖД</div>
-					<div class="exp-job-title">Leading Specialist</div>
-					<div class="exp-job-tech">c#, sql, wcf, asp net, wpf, entity framework, prism library, net office, sqlite, active directory</div>
-					<div class="exp-job-info">
-						<a href="https://company.rzd.ru/ru/9349/page/105554?id=173#enttab-main"><img height=20 src="img/RZD.svg" /></a>
-					</div>
+				<div class="exp-li">Outcome</div>
+				<div class="exp-lt">
+					Operated successfully for several years with stable revenue and fully organic growth. Student retention was consistently high — participants who enrolled typically completed the entire academic year. The platform integrated subject mastery, exam formatting discipline, and structured preparation into a unified learning system.
 				</div>
-			</article>
-
-			<article>
-				<div class="exp-title">
-					<img height="30" src="img/rzd.webp">
-					<div>СКЖД</div>
-					<div>1990-2000</div>
+				<div class="exp-li">Links</div>
+				<div class="exp-lt">GitHub link, store link</div>
+			</div>
+		</details>
+		
+		<details open class="main-content exp-content">
+			<summary class="exp-title">
+				Internal Compliance & Audit Tracking System — Russian Railways (RZD)
+			</summary>
+			<div class="exp-det">
+				<div class="exp-li">Problem</div>
+				<div class="exp-lt">
+					Internal auditors operating in regulated environments required a secure system to record financial compliance violations during on-site inspections. Due to network restrictions, field work had to be performed fully offline, with structured reporting and later centralized consolidation.
 				</div>
-
-				<div class="exp-job">
-					<div class="exp-job-text">
-						Создал много успешных продуктов для железной жороги. 
-                        Например, учёт и выписка дефектных ведомостей деповского ремонта грузовых вагонов, анализ работ и материалов. 
-                        Автоматизация сводной отчётности дороги, бухгалтерского учёта, различные экономические задачи. 
-                        Разработал программу расчёта и распределения штрафов за просрочку в доставке грузов, ведение претензионно-исковой работы. 
-                        Создал программу для статистической обработки документов в технологических центрах подготовки перевозочных документов.
-					</div>
-					<div class="exp-job-title">Программист</div>
-					<div class="exp-job-tech">
-						<a href="https://skzd.rzd.ru/"><img height=30 src="img/rzd.webp" /></a>
-					</div>
+				<div class="exp-li">Role</div>
+				<div class="exp-lt">
+					Designed and implemented an offline-first desktop application enabling auditors to record findings locally, generate standardized compliance reports, and synchronize inspection data to a centralized database upon reconnecting to the corporate intranet.
+					Engineered a reliable data migration pipeline, ensuring consistency across distributed monthly submissions.
+					Supported aggregation and analytical reporting across reporting periods at the organizational level.
 				</div>
-			</article>
-		</section>
+				<div class="exp-li">Technologies</div>
+				<div class="exp-lt">
+					C#, MS SQL Server, Entity Framework.
+				</div>
+				<div class="exp-li">Outcome</div>
+				<div class="exp-lt">
+					Enabled structured digital tracking of compliance violations across distributed audit teams.
+					Replaced fragmented reporting workflows with a unified data model and centralized analytics.
+					Successfully operated within a restricted enterprise environment with strict security constraints.
+				</div>
+				<div class="exp-li">Links</div>
+				<div class="exp-lt">GitHub link, store link</div>
+			</div>
+		</details>
+		
+		<details open class="main-content exp-content">
+			<summary class="exp-title">
+				Large Commercial Bank (VTB)
+			</summary>
+			<div class="exp-det">
+				<div class="exp-li">Project</div>
+				<div class="exp-lt">
+					Development of Foreign Currency Operations and FX Reserves Accounting System
+				</div>
+				<div class="exp-li">Role</div>
+				<div class="exp-lt">
+					Senior Software Engineer
+					Worked in a cross-functional team of 50+ engineers within a structured enterprise SDLC
+					Implemented and maintained modules for foreign currency operations accounting
+					Participated in enhancement of financial reporting and reconciliation logic
+					Refactored legacy components to improve stability and maintainability
+					Contributed to performance optimizations in EF/SQL data access layer
+					Followed CI/CD practices (TeamCity), code reviews, and internal compliance standards
+					Worked with highly regulated financial data and strict internal audit requirements
+				</div>
+				<div class="exp-li">Technologies</div>
+				<div class="exp-lt">
+					C#, WPF, DevExpress, Entity Framework, MS SQL Server, TeamCity
+				</div>
+			</div>
+		</details>
+		
+		<details open class="main-content exp-content">
+			<summary class="exp-title">
+				RPA Platform — Desktop Automation System
+			</summary>
+			<div class="exp-det">
+				<div class="exp-li">Project</div>
+				<div class="exp-lt">
+					Organizations required automation of repetitive business processes involving document handling, data entry, and interaction with legacy systems. The platform needed a stable desktop runtime capable of executing robots reliably across heterogeneous environments.
+				</div>
+				<div class="exp-li">Role</div>
+				<div class="exp-lt">
+					Worked within a cross-functional team developing an RPA platform.
+					Designed and implemented a WPF-based Player application responsible for launching and monitoring automation robots.
+					Developed communication layers using RabbitMQ, Protobuf, and gRPC.
+					Handled multithreading, asynchronous execution flows, and Office (Excel/Word) integrations via Interop.
+					Contributed to stabilizing runtime behavior across diverse execution scenarios.
+				</div>
+				<div class="exp-li">Technologies</div>
+				<div class="exp-lt">
+					C#, WPF, Prism, RabbitMQ, Protobuf, gRPC, Telerik, Excel/Word Interop, GitLab, Jira
+				</div>
+				<div class="exp-li">Outcome</div>
+				<div class="exp-lt">
+					Delivered production-ready components used for executing and monitoring automated workflows.
+					Improved reliability of robot execution and desktop interaction layers.
+					Gained broad hands-on experience across networking, concurrency, UI architecture, and document automation in a structured team environment.
+				</div>
+			</div>
+		</details>
+		
+		<details open class="main-content exp-content">
+			<summary class="exp-title">
+				Early Career — Industrial & Railway Automation Systems
+			</summary>
+			<div class="exp-det">
+				<div class="exp-li">Problems</div>
+				<div class="exp-lt">
+					Railway operations and industrial enterprises required digitalization of repair workflows, accounting processes, penalty calculations, and operational reporting across distributed organizational units.
+				</div>
+				<div class="exp-li">Roles</div>
+				<div class="exp-lt">
+					Designed and implemented multiple production systems used by railway departments and affiliated enterprises.
+					Key solutions included:
+				</div>
+				<div class="exp-lt">
+					<ul>
+						<li>Freight wagon depot repair tracking and defect documentation management</li>
+						<li>Enterprise accounting automation deployed across multiple large organizations</li>
+						<li>Automated penalty calculation and claims management for delayed cargo delivery</li>
+						<li>Statistical processing systems for transportation documentation centers</li>
+						<li>Aggregated reporting and economic analysis tools for regional railway administration</li>
+					</ul>
+				</div>
+				<div class="exp-li">Outcome</div>
+				<div class="exp-lt">
+					<ul>
+						<li>Successfully deployed across multiple industrial sites and railway departments.</li>
+						<li>Systems were actively used in daily operations and became part of routine workflows.</li>
+						<li>Built strong domain expertise in large-scale operational processes and structured data management.</li>
+					</ul>
+				</div>
+			</div>
+		</details>
 
-    </div>
+	</div>
 </body>
 </html>

@@ -6,13 +6,33 @@
 
 .exp-title {
     background-color: lightblue;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 12px;
-    margin-bottom: 16px;
-    font-size: 16px;
+}
+
+.exp-det {
+    margin-left: 48px;
+}
+
+.exp-li {
+    background-color: yellow;
+    color: blue;
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 99px;
+}
+
+.exp-lt {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 12px;
 }
 
 .exp-job {

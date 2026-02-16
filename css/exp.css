@@ -7,24 +7,19 @@ html {
 a {
   text-decoration: none;
   color: inherit;
-  transition: 0.2s;
 }
 
 .main-container {
   max-width: 1240px;
   margin: 0 auto;
-}
-
-.main-content {
-  margin-top: var(--heightop);
-  font-size: 16px;
-}
-
-.exp-content {
   background-color: white;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.exp-title {
+.title {
   background-color: lightblue;
   display: flex;
   align-items: center;
@@ -32,17 +27,34 @@ a {
   padding: 12px;
 }
 
-.exp-det {
+.content {
   margin-left: 48px;
+  margin-top: 16px;
 }
 
-.con {
-  margin: 8px 0;
-}
-
-.con-a {
-  margin-right: 24px;
+.contact {
+  margin-top: 8px;
   color: blue;
+  display: flex;
+  gap: 24px;
+}
+
+.contact :hover {
+  opacity: 0.7;
+}
+
+.tech {
+  margin: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tech-box {
+  white-space: nowrap;
+  padding: 8px;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
 }
 
 .link {
@@ -52,77 +64,23 @@ a {
   font-style: italic;
   color: purple;
   text-decoration: none;
+  height: 30px;
+}
+
+.link :hover {
+  opacity: 0.7;
 }
 
 .imglink {
   height: 30px;
 }
 
-.tech {
-  margin: 24px 0;
-}
-
-.tech-det {
-  margin-right: 4px;
-  padding: 8px;
-  border: 1px solid #aaaaaa;
-  border-radius: 8px;
-}
-
-.exp-li {
-  background-color: yellow;
-  color: blue;
-  display: flex;
-  align-items: center;
+.tag {
   margin: 16px;
   padding: 12px;
+  background-color: yellow;
+  color: blue;
+  text-align: center;
   border-radius: 10px;
   width: 99px;
-}
-
-.exp-lt {
-  background-color: white;
-  color: black;
-  display: flex;
-  align-items: center;
-  margin: 12px;
-}
-
-.exp-job {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, auto);
-  gap: 16px;
-  align-items: center;
-  margin-bottom: 64px;
-}
-
-.exp-job-text {
-  padding: 8px;
-  color: black;
-  grid-row: 1/4;
-  text-indent: 32px;
-}
-
-.exp-job-title {
-  color: darkblue;
-  text-align: center;
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.exp-job-tech {
-  color: red;
-  text-align: center;
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.exp-job-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  grid-column: 2;
-  grid-row: 3;
 }/*# sourceMappingURL=exp.css.map */

@@ -50,7 +50,7 @@ a {
   gap: 4px;
 }
 
-.tech-box {
+.tech span {
   white-space: nowrap;
   padding: 8px;
   border: 1px solid #aaaaaa;

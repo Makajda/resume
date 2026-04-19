@@ -1,1 +1,1 @@
-https://makajda.github.io/resume/
+https://makajda.github.io/resume/cv/
